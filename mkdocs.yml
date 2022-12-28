@@ -1,0 +1,30 @@
+site_name: Textual文档
+
+repo_url: https://github.com/i-am-wyk/textual-translate
+repo_name: i-am-wyk/textual-translate
+
+theme:
+  name: material
+  icon:
+    repo: simple/github
+    edit: material/pencil
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+  language: zh
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      
+nav:
+    - 主页: 'index.md'
+    - 教程: xx
