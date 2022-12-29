@@ -10,7 +10,9 @@ Textual 是 python 的一个 TUI 库
 
 ## 翻译有误?
 我的邮箱: wyk.bugging@qq.com
+
 或者来[我的Github仓库](https://github.com/i-am-wyk/textual-translate)提issue或者pr
+
 精力有限，如有低级错误，希望理解
 
 ## 官方文档地址
