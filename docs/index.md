@@ -18,3 +18,6 @@ Textual 是 python 的一个 TUI 库
 ## 官方文档地址
 译自<a href="https://textual.textualize.io/" target="_blank">https://textual.textualize.io</a>，已获得官方许可
 ![email.png](https://s2.loli.net/2022/12/28/ZY9HGRlwnMo1tUD.png)
+
+```{.textual path="examples/calculator.py" columns=100 lines=41 press="3,.,1,4,5,9,2,_,_,_,_,_,_,_,_"}
+```
