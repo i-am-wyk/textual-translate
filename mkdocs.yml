@@ -3,6 +3,14 @@ site_name: Textual文档
 repo_url: https://github.com/i-am-wyk/textual-translate
 repo_name: i-am-wyk/textual-translate
 
+nav:
+    - 关于此文档: 'about.md'
+    - 介绍:
+      - "index.md"
+      - "getting_started.md"
+      - "help.md"
+
+
 theme:
   name: material
   icon:
@@ -21,6 +29,14 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - md_in_html
+  - admonition
+  - def_list
+  - meta
 
   - toc:
       permalink: true
@@ -51,6 +67,5 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       
-nav:
-    - 主页: 'index.md'
-    - 教程: 'index.md'
+extra_css:
+  - stylesheets/custom.css

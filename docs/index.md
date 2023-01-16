@@ -1,23 +1,62 @@
-# 欢迎来到我翻译的 Textual 文档
+# 介绍
+ 
+ 欢迎阅读[Textual](https://github.com/Textualize/textual)框架文档。由[Textualize.io](https://www.textualize.io)编写。
 
-## Textual是什么
-Textual 是 python 的一个 TUI 库
-!!! info "TUI是什么"
+ ## 等不及了？
 
-    TUI就是文本用户界面(Text User Interface)，你可以理解为终端的UI
-    
-    “TUI是指文本用户界面(Text-based User Interface)，通过文本实现交互窗口展示内容，定位光标和鼠标实现用户交互。” ——[百度百科](https://baike.baidu.com/item/%E6%96%87%E6%9C%AC%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2)
+请参阅标题或侧栏中的导航链接，在移动设备上点击左上角的 :octicons-three-bars-16: 按钮。
 
-## 翻译有误?
-我的邮箱: wyk.bugging@qq.com
+[开始](./getting_started.md){ .md-button .md-button--primary } or [教程](./tutorial.md){ .md-button .md-button--secondary }
 
-或者来[我的Github仓库](https://github.com/i-am-wyk/textual-translate)提issue或者pr
+## Textual是什么？
 
-精力有限，如有低级错误，希望理解
+ Textual 是一个用于构建在终端中运行的应用程序的框架。文本用户界面(TUIs)与 web 和桌面应用程序相比有许多优势。
 
-## 官方文档地址
-译自<a href="https://textual.textualize.io/" target="_blank">https://textual.textualize.io</a>，已获得官方许可
-![email.png](https://s2.loli.net/2022/12/28/ZY9HGRlwnMo1tUD.png)
+<div class="grid cards" markdown>
 
-```{.textual path="examples/calculator.py" columns=100 lines=41 press="3,.,1,4,5,9,2,_,_,_,_,_,_,_,_"}
-```
+-   :material-clock-fast:{ .lg .middle } :material-language-python:{. lg .middle } __Rapid development__
+
+    ---
+
+    Uses your existing Python skills to build beautiful user interfaces.
+
+
+-   :material-raspberry-pi:{ .lg .middle } __Low requirements__
+
+    ---
+
+    Low system requirements. Run Textual on a single board computer if you want to.
+
+
+
+-   :material-microsoft-windows:{ .lg .middle } :material-apple:{ .lg .middle } :fontawesome-brands-linux:{ .lg .middle } __Cross platform__
+
+    ---
+
+    Textual runs just about everywhere.
+
+
+
+-   :material-network:{ .lg .middle } __Remote__
+
+    ---
+
+    Textual apps can run over SSH.
+
+
+-   :fontawesome-solid-terminal:{ .lg .middle } __CLI Integration__
+
+    ---
+
+    Textual apps can be launched and run from the command prompt.
+
+
+
+-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Textual is licensed under MIT.
+
+
+</div>
