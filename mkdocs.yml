@@ -69,3 +69,4 @@ plugins:
       
 extra_css:
   - stylesheets/custom.css
+  - stylesheets/main.css
