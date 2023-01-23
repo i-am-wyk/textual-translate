@@ -15,6 +15,13 @@ Textual 是 python 的一个 TUI 库
 
 精力有限，如有低级错误，希望理解
 
+## 译者的话
+翻译过程中，为了方便理解，我加入了一些自己的话<font style="font-size:10px;color:rgb(100,100,100)">就像这样用不同的颜色和大小标注出来</font>
+
+## 文档中的代码
+
+此文档中的代码内的注释和字符串变量我都翻译成了中文，所以与官方文档中的代码可能会有一些出入。
+
 ## 官方文档地址
 译自<a href="https://textual.textualize.io/" target="_blank">https://textual.textualize.io</a>，已获得官方许可
 ![email.png](https://s2.loli.net/2022/12/28/ZY9HGRlwnMo1tUD.png)
